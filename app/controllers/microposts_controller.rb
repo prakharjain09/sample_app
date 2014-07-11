@@ -15,7 +15,7 @@ class MicropostsController < ApplicationController
       render 'static_pages/home'
     end
   end
-
+  
   def destroy
     @micropost.destroy
     redirect_to root_url
